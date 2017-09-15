@@ -1,128 +1,41 @@
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
-  <style type="text/css">
-    head {
-      background-color: green;
-      font-family: 'Georgia', Times, Times 'Times New Roman', serif;
-      /*background-image: url("assets/images/concrete_seamless.png");*/
-
-    }
-    h1 {
-      color: #ffffff;
-      background-color: #4aaaa5;
-      float: left;
-      margin: 0px 0px 0px 30px;
-      width: 20%;
-      text-align: center;
-    }
-    h3 {
-      color: #4aaaa5;
-      margin: 0px;
-      padding: 20px 0px 0px 20px;
-    }
-    nav {
-      background-color: white;
-      float: right;
-      font-size: 18px;
-      /*color: #dddddd;*/
-      color: #777777;
-      margin: 10px 175px 0px 0px;
-    }
-    body {
-      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-      margin: 0px;
-      background-image: url("assets/images/concrete_seamless.png");
-    }
-    form {
-      padding-left: 20px;
-    }
-    #about,
-    #social,
-    #contact {
-      color: #777777;
-      font-family: 'Georgia', Times, 'Times New Roman', serif;
-    }
-    #about {
-      clear: both;
-      color: #777777;
-      margin: 10px 0px 60px 30px;
-      float: left;
-      width: 50%;
-      border-width: 1px;
-      border-style: solid;
-      border-color: black;
-      background-color: white;
-    }
-    #main {
-      background-color: white;
-      margin: 0px;
-      float: right;
-      background-image: url("assets/images/concrete_seamless.png");
-    }
-    #social {
-      float: right;
-      width: 25%;
-      border-width: 1px;
-      border-style: solid;
-      border-color: black;
-      color: #4aaaa5;
-      text-align: center;
-      background-color: white;
-      margin: 10px 150px 0px 0px;
-    }
-    /*sidebar*/
-    #contact {
-      clear: both;
-      width: 50%;
-      margin: 0px 0px 0px 30px;
-      border-width: 1px;
-      border-style: solid;
-      border-color: black;
-      background-color: white;
-    }
-  </style>
-  <!-- <div id="main"> -->
-  <title>My Profile</title>
-    <!-- <div id="main"> -->
-      <h1>Max Chao</h1>
-      <div id="main">
-      <nav>About | Portfolio | Contact</nav>
-    </div>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <title>My Profile</title>  
 </head>
     <body>
-    <br>
+      <div id="header">
+      <h1>Max Chao</h1>
+      <nav><a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+   
     <div id="about">
-    <h3>About Me</h3><br>
-    <img src="assets/images/profilepic.jpg" width="240" height="175">
-    My name is Max and I have an unhealthy addition to candy.  My favorite is dark chocolate covered expresso beans.  On occation, I will gorge myself on sour candies like sour patch kids or skittles.  There was one week where the only thing changed about my diet and exercise regimen was the amount of skittles I ate and I gained 5lbs.  Never again!
+      <h2>About Me</h2><br><hr id="underline" align="left">
+      <div id="Max" class="content">
+      <img src="assets/images/profilepic.jpg" width="240" height="175" align="left" id="profilepic">
+      <p class="MC">My name is Max and I have an unhealthy addition to candy.  My favorite is dark chocolate covered expresso beans.  On occation, I will gorge myself on sour candies like sour patch kids or skittles.  There was one week where the only thing changed about my diet and exercise regimen was the amount of skittles I ate and I gained 5lbs.  Never again!  I usually stand at about 130lbs but sometimes I weigh 125lbs or as much as 150lbs.  Exercise  or visits to the buffet do not cause any net gains or losses.
+      </p>
+      </div>
     </div>
     <br>
     <div id="social">
       <h4>Connect with Me</h4>
-      <hr>
-    <br>
-    <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_square_black-64.png">
-    <img src="https://cdn2.iconfinder.com/data/icons/social-icons-color/512/stackoverflow-64.png">
-    <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_square_color-64.png">
+        <hr id="underline">
+      <br>
+      <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_square_black-64.png">
+      <img src="https://cdn2.iconfinder.com/data/icons/social-icons-color/512/stackoverflow-64.png">
+      <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_square_color-64.png">
     </div>
     <br>
     <!-- sidebar -->
-    <div id="contact">
-      <h3>Contact</h3>
-      <hr>
-    <br>
-    <form>
-      Name:<br><input type="text" name="name"><br>
-      Email:<br><input type="text" name="email"><br>
-      Message:<br><textarea name="messagebox"></textarea><br>
-      <input type="submit" name="Submit">
-    </form>
-    </div>
+  
 
     </body>
-
+  <footer>
+    <p>
+      Copyright 2017 Maxwilliam Chao
+    </p>
+  </footer>
 </html>
