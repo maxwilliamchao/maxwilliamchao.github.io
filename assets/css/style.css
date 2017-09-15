@@ -100,14 +100,20 @@
       width: 90%;
     }
     #pics {
+      position: static;
       margin: 20px 20px 20px 20px;
       height: 200px;
       width: 200px;
+      z-index: 2;
     }
-    #picsR {
-      clear: both;
-      float: right;
-      margin: 20px 20px 20px 20px;
-      height: 200px;
+   
+    #portbanner {
+      position: absolute;
+      text-align: center;
+      color: #eeeeee;
+      border: 1px solid black;
       width: 200px;
+      z-index: 1;
+      background-color: #4aaaa5;
+      margin: -50px 0px 0px 20px;
     }
